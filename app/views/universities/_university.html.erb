@@ -1,12 +1,14 @@
-<div id="<%= dom_id university %>">
-  <p>
-    <strong>Universidad:</strong>
+<tr>
+  <td>
     <%= university.universidad %>
-  </p>
-
-  <p>
-    <strong>Pais:</strong>
+  </td>
+  <td>
     <%= university.pais %>
-  </p>
-
-</div>
+  </td>
+  <td>
+    <%= link_to "mostrar", university, class:"link" %>
+  </td>
+  <td>
+    <%= link_to "Programas", university_programs_path(university)%>
+  </td>
+</tr>

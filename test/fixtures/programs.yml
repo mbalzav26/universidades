@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  beca: MyString
+  requisito: MyString
+  descripcion: MyText
+  university: one
+
+two:
+  nombre: MyString
+  beca: MyString
+  requisito: MyString
+  descripcion: MyText
+  university: two
