@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+ *{
+    font-family: 'Poppins', sans-serif;
+ }
+
+ header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #759eff;
+    color: white;
+    height: 100px;
+ }
+
+ header>h1{
+     font-size: 55px;
+ }
+
+ header>.h1{
+     display: none;
+ }
+
+ @media (max-width: 600px){
+    header>h1{
+        display: none;
+        content: "Becas";
+        text-align: center;
+    }
+
+    header>.h1{
+        display: block;
+        font-size: 55px;
+    }
+ }
